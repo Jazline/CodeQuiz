@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+        <div id="container">
+
+                <div id="start">Start Quiz!</div>
+        
+                <div id="quiz" class="hidden">
+                     <div id="subcontainer">
+                    <div id="codingquiz">Coding Quiz</div>
+                     </div>
+                    <div id="question"></div>
+                    <br>
+                    <div id="choices">
+                            
+                        <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                        <br>
+                          
+                          
+                        <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                        <br>
+                       
+                        
+                        <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+
+               
+                    </div>
+                     <br>
+                    <div id="timer">
+        
+                        <div id="counter"></div>
+        
+                        
+        
+                    </div>
+        
+                   
+        
+                </div>
+        
+                <div id="scoreContainer" class="hidden"></div>
+                
+        
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#start {
+    font-size: 40px;
+    text-align: center;
+    margin: 180px;
+    font-weight: bold;
+}
+
+body {
+    background-color: white;
+}
+
+#container {
+    background-color: purple;
+    height: 100%;
+}
+
+#question {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#choices {
+    font-size: 20px;
+    text-align: center;
+}
+ #timer {
+     text-align: right;
+     font-size: 40px;
+ }
+
+ #codingquiz {
+     text-align: center;
+     font-size: 40px;
+ }
+
+ #subcontainer {
+     background-color: aliceblue;
+ }
